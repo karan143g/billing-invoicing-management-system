@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\dtos\\invoicelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\dtos\\invoicelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\endpoints\\invoiceendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\endpoints\\invoiceendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\endpoints\\customerendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\endpoints\\customerendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\billingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\billingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\entities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\entities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\dtos\\invoiceheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\dtos\\invoiceheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\dtos\\invoiceviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\dtos\\invoiceviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\dtos\\invoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\dtos\\invoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\dtos\\invoicesavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\dtos\\invoicesavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\endpoints\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|d:\\minibillingproject\\api backend\\billingapi\\billingapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE40141-A8A3-4B80-AC8A-9818B9524C92}|BillingAPI\\BillingAPI.csproj|solutionrelative:billingapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthEndPoints.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\EndPoints\\AuthEndPoints.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\EndPoints\\AuthEndPoints.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\EndPoints\\AuthEndPoints.cs",
+              "RelativeToolTip": "BillingAPI\\EndPoints\\AuthEndPoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:20:36.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Data\\DapperContext.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\Data\\DapperContext.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Data\\DapperContext.cs",
+              "RelativeToolTip": "BillingAPI\\Data\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:15:21.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BillingAPI\\appsettings.json",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\appsettings.json",
+              "RelativeToolTip": "BillingAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-08T02:14:45.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\Program.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Program.cs",
+              "RelativeToolTip": "BillingAPI\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswFAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:06:19.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceListDto.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceListDto.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\DTOs\\InvoiceListDto.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceListDto.cs",
+              "RelativeToolTip": "BillingAPI\\DTOs\\InvoiceListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T18:12:36.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\Data\\UserRepository.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Data\\UserRepository.cs",
+              "RelativeToolTip": "BillingAPI\\Data\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:36:54.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\DTOs\\UserDto.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "BillingAPI\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:17:03.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\Entities\\Customer.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Entities\\Customer.cs",
+              "RelativeToolTip": "BillingAPI\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T06:07:17.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerEndPoints.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\EndPoints\\CustomerEndPoints.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\EndPoints\\CustomerEndPoints.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\EndPoints\\CustomerEndPoints.cs",
+              "RelativeToolTip": "BillingAPI\\EndPoints\\CustomerEndPoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T06:23:20.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\Services\\JwtTokenService.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "BillingAPI\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:23:54.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InvoiceEndPoints.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\EndPoints\\InvoiceEndPoints.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\EndPoints\\InvoiceEndPoints.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\EndPoints\\InvoiceEndPoints.cs",
+              "RelativeToolTip": "BillingAPI\\EndPoints\\InvoiceEndPoints.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwLAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:09:16.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InvoiceItemDto.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceItemDto.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\DTOs\\InvoiceItemDto.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceItemDto.cs",
+              "RelativeToolTip": "BillingAPI\\DTOs\\InvoiceItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:07:44.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InvoiceHeaderDto.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceHeaderDto.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\DTOs\\InvoiceHeaderDto.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceHeaderDto.cs",
+              "RelativeToolTip": "BillingAPI\\DTOs\\InvoiceHeaderDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:50:32.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "BillingAPI\\DTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:17:45.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Entities\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\Entities\\PasswordHasher.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Entities\\PasswordHasher.cs",
+              "RelativeToolTip": "BillingAPI\\Entities\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:18:46.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BillingAPI.csproj",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\BillingAPI.csproj",
+              "RelativeDocumentMoniker": "BillingAPI\\BillingAPI.csproj",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\BillingAPI.csproj",
+              "RelativeToolTip": "BillingAPI\\BillingAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-08T02:04:30.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InvoiceViewDto.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceViewDto.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\DTOs\\InvoiceViewDto.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceViewDto.cs",
+              "RelativeToolTip": "BillingAPI\\DTOs\\InvoiceViewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:46:05.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\DTOs\\CustomerDto.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "BillingAPI\\DTOs\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T06:06:03.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductEndpoints.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\EndPoints\\ProductEndpoints.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\EndPoints\\ProductEndpoints.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\EndPoints\\ProductEndpoints.cs",
+              "RelativeToolTip": "BillingAPI\\EndPoints\\ProductEndpoints.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwBoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:26:58.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InvoiceSaveDto.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceSaveDto.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\DTOs\\InvoiceSaveDto.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\InvoiceSaveDto.cs",
+              "RelativeToolTip": "BillingAPI\\DTOs\\InvoiceSaveDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:08:26.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "BillingAPI\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:17:18.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\Entities\\Product.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Entities\\Product.cs",
+              "RelativeToolTip": "BillingAPI\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:13:49.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "BillingAPI\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:14:29.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BillingAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\MiniBillingProject\\API Backend\\BillingAPI\\BillingAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BillingAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:03:48.754Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

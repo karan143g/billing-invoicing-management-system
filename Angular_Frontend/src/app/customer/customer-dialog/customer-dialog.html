@@ -1,0 +1,81 @@
+<div class="dialog-container">
+
+  <!-- HEADER -->
+  <div class="dialog-header">
+    <h3>{{ form.value.customerId ? 'Edit' : 'Add' }} Customer</h3>
+    <button mat-icon-button mat-dialog-close>
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+
+  <!-- BODY -->
+  <div class="dialog-body">
+    <form [formGroup]="form">
+
+      <!-- Customer Name -->
+      <mat-form-field appearance="outline" class="half">
+        <mat-label>Customer Name</mat-label>
+        <input matInput formControlName="customerName">
+
+        <mat-error *ngIf="form.get('customerName')?.hasError('required')">
+          Customer name is required
+        </mat-error>
+      </mat-form-field>
+
+      <!-- Mobile -->
+      <mat-form-field appearance="outline" class="half">
+        <mat-label>Mobile</mat-label>
+        <input matInput formControlName="mobile" maxlength="10">
+
+        <mat-error *ngIf="form.get('mobile')?.hasError('required')">
+          Mobile number is required
+        </mat-error>
+        <mat-error *ngIf="form.get('mobile')?.hasError('pattern')">
+          Enter valid 10-digit mobile number
+        </mat-error>
+      </mat-form-field>
+
+      <!-- Email -->
+   
+    <div>
+<mat-form-field appearance="outline" class="half" style="width: 93%;">
+        <mat-label>Address</mat-label>
+        <textarea matInput rows="3" formControlName="address"></textarea>
+      </mat-form-field>
+     </div>
+      <!-- Address -->
+    
+        <mat-form-field appearance="outline" class="half" >
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email">
+
+        <mat-error *ngIf="form.get('email')?.hasError('email')">
+          Invalid email format
+        </mat-error>
+      </mat-form-field>
+
+    </form>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="dialog-footer">
+    <button mat-stroked-button mat-dialog-close [disabled]="loading">
+      Cancel
+    </button>
+
+    <button mat-raised-button color="primary"
+            (click)="save()"
+            [disabled]="!form.valid">
+
+      <mat-progress-spinner
+        *ngIf="loading"
+        diameter="20"
+        mode="indeterminate"
+        class="btn-spinner">
+      </mat-progress-spinner>
+
+      <span *ngIf="!loading">{{ form.value.customerId ? 'Update' : 'Save' }}</span>
+    </button>
+  </div>
+
+</div>

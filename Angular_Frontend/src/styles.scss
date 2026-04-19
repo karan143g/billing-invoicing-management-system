@@ -1,0 +1,135 @@
+/* You can add global styles to this file, and also import other style files */
+/* Add Material theme */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Optional: Add Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.actionbutton{
+    float: right;
+    margin-bottom: 20px;
+}
+
+// .headerbackground{
+//    background-color: burlywood;
+//    display: flex;
+//    height: 40px;
+//    padding: 10px;
+//    margin-bottom: 20px;
+// }
+
+// .closebtn{
+//   float: right;
+//   cursor: pointer;
+//   margin-top: 10px;
+// }
+
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 400px;
+}
+
+/* HEADER */
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e0e0e0;
+  height: 30px;
+}
+
+.dialog-header h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* BODY */
+.dialog-body {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+// .full {
+//   width: 100%;
+//   margin-bottom: 16px;
+// }
+
+.half {
+  width: 45%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+/* FOOTER */
+.dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 16px 20px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #ffffff;
+}
+
+.btn-spinner {
+  margin-right: 8px;
+}
+
+.confirm-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+}
+
+.confirm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #f5f7fa;
+  border-bottom: 1px solid #e0e0e0;
+  height: 30px;
+}
+
+.confirm-body {
+  padding: 20px;
+}
+
+.confirm-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 16px;
+  border-top: 1px solid #e0e0e0;
+}
+
+// .sucess-snack{
+//   color: #f5f7fa;
+//   background-color: rgb(78, 221, 78);
+// }
+
+// .error-snack{
+//   color: #f5f7fa;
+//   background-color: rgb(233, 35, 35);
+// }
+
+.mat-mdc-snack-bar-container.sucess-snack .mdc-snackbar__surface {
+  background-color: rgb(54, 174, 54) !important;
+  color: #ffffff !important;
+}
+
+/* ERROR SNACKBAR */
+.mat-mdc-snack-bar-container.error-snack .mdc-snackbar__surface {
+  background-color: rgb(233, 35, 35) !important;
+  color: #ffffff !important;
+}
+

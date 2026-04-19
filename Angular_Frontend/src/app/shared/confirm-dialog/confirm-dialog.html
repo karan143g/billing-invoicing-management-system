@@ -1,0 +1,29 @@
+<div class="confirm-container">
+
+  <!-- HEADER -->
+  <div class="confirm-header">
+    <h3>{{ data.title }}</h3>
+    <button mat-icon-button (click)="cancel()">
+      <mat-icon>close</mat-icon>
+    </button>
+    
+  </div>
+
+  <!-- BODY -->
+  <div class="confirm-body">
+    <p>{{ data.message }}</p>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="confirm-footer">
+    <button mat-stroked-button color="primary" (click)="cancel()">
+      {{ data.cancelText || 'Cancel' }}
+    </button>
+
+    <button mat-raised-button color="warn" (click)="confirm()">
+      {{ data.confirmText || 'Delete' }}
+    </button>
+  </div>
+
+</div>
+

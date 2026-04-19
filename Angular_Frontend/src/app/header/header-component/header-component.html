@@ -1,0 +1,39 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="toggleSidebar()">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <span style="margin-left: 10px; font-weight: 500;">
+    Billing Pro
+  </span>
+
+  <span class="spacer"></span>
+
+  <!-- User info (later) -->
+  <!-- <mat-icon>account_circle</mat-icon> -->
+   <button mat-button [matMenuTriggerFor]="userMenu">
+    <mat-icon>account_circle</mat-icon>
+    <span class="username">{{ auth.user?.username }}</span>
+    <mat-icon>arrow_drop_down</mat-icon>
+  </button>
+
+</mat-toolbar>
+
+<mat-menu #userMenu="matMenu">
+  <button mat-menu-item disabled>
+    <mat-icon>person</mat-icon>
+    <span>{{ auth.user?.username }}</span>
+  </button>
+
+  <button mat-menu-item disabled>
+    <mat-icon>badge</mat-icon>
+    <span>{{ auth.user?.role }}</span>
+  </button>
+
+  <mat-divider></mat-divider>
+
+  <button mat-menu-item (click)="logout()">
+    <mat-icon>logout</mat-icon>
+    <span>Logout</span>
+  </button>
+</mat-menu>

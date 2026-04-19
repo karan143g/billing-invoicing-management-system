@@ -1,0 +1,36 @@
+<!-- 
+<div class="app-container">
+  <app-header-component class="header" (toggleSidebar)="toggleSidebar()"></app-header-component>
+  
+  <div class="main-content">
+    <app-sidebar-component [isOpen]="isSidebarOpen">
+
+    </app-sidebar-component>
+    
+    <div class="content-area">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div> -->
+
+<!-- Show layout ONLY when logged in -->
+<!-- <ng-container *ngIf="auth.isLoggedIn()">
+
+   <app-header-component class="header" (toggleSidebar)="toggleSidebar()"></app-header-component>
+
+  <div class="app-container">
+    <app-sidebar-component [isOpen]="isSidebarOpen"></app-sidebar-component>
+
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</ng-container>
+
+<ng-container *ngIf="!auth.isLoggedIn()">
+  <router-outlet></router-outlet>
+</ng-container> -->
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,40 @@
+.app-container {
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color:  rgb(182 228 233);
+}
+
+.layout {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+app-sidebar-component {
+  flex-shrink: 0;
+  height: calc(102vh - 10px); /* Adjust based on your header height */
+  position: sticky;
+  top: 100px; /* Same as header height */
+  overflow-y: auto; /* Allow sidebar to scroll if content is long */
+  background-color: #fcf5f5;
+}
+
+.page-content {
+  flex: 1;
+  overflow-y: auto; /* Only this area will scroll */
+  padding: 16px;
+}
+
+.content {
+  flex: 1;
+  padding: 16px;
+}

@@ -1,0 +1,102 @@
+<h2>Create Invoice</h2>
+
+<!-- HEADER -->
+<form [formGroup]="invoiceForm" class="invoice-header">
+
+  <mat-form-field appearance="outline" class="half">
+    <mat-label>Customer</mat-label>
+    <mat-select formControlName="customerId">
+      <mat-option *ngFor="let c of customers" [value]="c.customerId">
+        {{ c.customerName }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="half">
+  <mat-label>Date</mat-label>
+  <input matInput [matDatepicker]="invoiceDatePicker" formControlName="invoiceDate">
+  <mat-datepicker-toggle matIconSuffix [for]="invoiceDatePicker"></mat-datepicker-toggle>
+  <mat-datepicker #invoiceDatePicker></mat-datepicker>
+</mat-form-field>
+
+</form>
+
+<!-- ADD ITEM -->
+<form [formGroup]="itemForm" class="item-form">
+
+  <mat-form-field appearance="outline" class="half">
+    <mat-label>Product</mat-label>
+    <mat-select formControlName="productId">
+      <mat-option *ngFor="let p of products" [value]="p.productId">
+        {{ p.productName }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="half">
+    <mat-label>Qty</mat-label>
+    <input matInput type="number" formControlName="qty">
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" style="margin-left: 2%;" [disabled]="(!invoiceForm.valid) || (!itemForm.valid)" (click)="addItem()">Add</button>
+
+</form>
+
+<!-- ITEM TABLE -->
+<table mat-table [dataSource]="items" class="mat-elevation-z8">
+
+  <ng-container matColumnDef="product">
+    <th mat-header-cell *matHeaderCellDef>Product</th>
+    <td mat-cell *matCellDef="let i">{{ i.productName }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="qty">
+    <th mat-header-cell *matHeaderCellDef>Qty</th>
+    <td mat-cell *matCellDef="let i">{{ i.qty }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="gst">
+    <th mat-header-cell *matHeaderCellDef>GST(%)</th>
+    <td mat-cell *matCellDef="let i">{{ i.gstPercent | number:'1.2-2' }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="rate">
+    <th mat-header-cell *matHeaderCellDef>Rate</th>
+    <td mat-cell *matCellDef="let i">{{ i.rate }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="gstamount">
+    <th mat-header-cell *matHeaderCellDef>GST Amount</th>
+    <td mat-cell *matCellDef="let i">{{ i.gstAmount | number:'1.2-2' }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="total">
+    <th mat-header-cell *matHeaderCellDef>Total</th>
+    <td mat-cell *matCellDef="let i">{{ i.total | number:'1.2-2' }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef>Actions</th>
+    <td mat-cell *matCellDef="let i; let idx = index">
+      <button mat-icon-button color="warn" matTooltip="Delete Product" (click)="removeItem(idx)">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="['product','qty','gst','rate','gstamount','total','actions']"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['product','qty','gst','rate','gstamount','total','actions']"></tr>
+
+</table>
+
+<!-- SUMMARY -->
+<div class="summary">
+  <p>Sub Total: {{ subTotal | number:'1.2-2' }}</p>
+  <p>GST Total: {{ gstTotal | number:'1.2-2' }}</p>
+  <h3>Grand Total: {{ grandTotal | number:'1.2-2' }}</h3>
+</div>
+
+<button mat-raised-button class="btn-save" (click)="saveInvoice()">
+  Save Invoice
+</button>
+

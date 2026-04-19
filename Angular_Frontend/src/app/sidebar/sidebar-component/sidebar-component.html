@@ -1,0 +1,48 @@
+<mat-sidenav-container class="sidenav-container">
+
+  <mat-sidenav
+    mode="side"
+    [opened]="sidebarService.isOpen$ | async"
+    class="sidenav">
+
+    <mat-nav-list>
+
+      <ng-container *ngFor="let item of menu">
+
+        <!-- Single menu -->
+        <!-- <a *ngIf="!item.children"
+           mat-list-item
+           [routerLink]="item.route"
+           routerLinkActive="active">
+          <mat-icon matListIcon>{{ item.icon }}</mat-icon>
+          {{ item.label }}
+        </a> -->
+
+        <!-- Menu with children -->
+        <mat-expansion-panel *ngIf="item.children" elevation="0" >
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>{{ item.icon }}</mat-icon>
+              <span style="margin-left: 10px">{{ item.label }}</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <a mat-list-item
+             *ngFor="let child of item.children"
+             [routerLink]="canShow(child) ? child.route : null"
+             routerLinkActive="active" (click)="canShow(child) && onMenuItemClick()" 
+             [class.disabled]="!canShow(child)">
+            {{ child.label }}
+          </a>
+        </mat-expansion-panel>
+
+      </ng-container>
+
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

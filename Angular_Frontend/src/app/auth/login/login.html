@@ -1,0 +1,30 @@
+<div class="login-container">
+  <mat-card>
+    <!-- <h2>Billing</h2> -->
+    <div class="login-logo">
+      <img src="assets/images/logoimg.png" alt="BillingPro Logo" />
+    </div>
+    <form [formGroup]="form" style="margin-top: -10%;">
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Username</mat-label>
+        <input matInput formControlName="username" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" formControlName="password" />
+      </mat-form-field>
+
+      <button
+        mat-raised-button
+        color="primary"
+        class="full"
+        (click)="login()"
+        [disabled]="!form.valid"
+      >
+        <mat-spinner *ngIf="loading" diameter="20"></mat-spinner>
+        <span *ngIf="!loading">Login</span>
+      </button>
+    </form>
+  </mat-card>
+</div>
