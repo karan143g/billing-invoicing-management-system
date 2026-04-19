@@ -76,8 +76,8 @@ git clone https://github.com/karan143g/billing-invoicing-management-system
 
 ### 2️⃣ Database Setup
 - Create SQL Server database
-- Run table scripts
-- Run stored procedure scripts
+- Run the `BillingSystem_SQL_Scripts.sql` file
+- Verify sample seed data is inserted successfully
 - Update connection string in: **appsettings.json**
 
 🔑 Demo Credentials
