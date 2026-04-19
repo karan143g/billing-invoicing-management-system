@@ -69,3 +69,23 @@ This project is designed to manage products, customers, invoices, authentication
 - Angular Material dialogs
 - Snackbar notifications
 - Loading spinners
+
+⚙️ Setup Instructions
+### 1️⃣ Clone Repository
+git clone https://github.com/karan143g/billing-invoicing-management-system
+
+### 2️⃣ Database Setup
+- Create SQL Server database
+- Run table scripts
+- Run stored procedure scripts
+- Update connection string in: **appsettings.json**
+
+🔑 Demo Credentials
+
+**Admin Login**
+- Username: admin
+- Password: admin123
+
+**User Login**
+- Username: user
+- Password: user123
